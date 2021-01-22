@@ -1,3 +1,5 @@
+#!/bin/sh
+
 set COUNT_SQL_STATEMENT="select Count(*) from table where key=1"
 set CROSSCHECK_COUNT_SQL_STATEMENT="select Count(*) from table where key=1"
 set ENDPOINT_URL="http://www.google.com"

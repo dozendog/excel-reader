@@ -11,7 +11,7 @@ public class ExcelReaderMain {
 
 	public static void main(String[] args) {
 
-		System.out.println("INFO: starting.....");
+		System.out.println("INFO: v0.0.1 starting.....");
 
 		if (args == null || args.length <= 0) {
 			System.out.println("ERROR: NO PARAMETER !!");

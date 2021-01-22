@@ -70,7 +70,7 @@ public class DatabaseConnector {
 	}
 	
 	public int count(String countSqlstatement) throws SQLException {
-		if(!countSqlstatement.toLowerCase().contentEquals("count(")){
+		if(!countSqlstatement.toLowerCase().contains("count(")){
 			System.out.println("WRONG SQL:"+countSqlstatement);
 			return -1;
 		}
